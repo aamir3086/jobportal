@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_bright"
+    tools:context=".JobList"
+    android:fillViewport="true"
+    >
+
+        <LinearLayout
+            android:id="@+id/javaid"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            >
+            <TextView
+                android:layout_marginTop="30dp"
+                android:id="@+id/java"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:id="@+id/apply"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/java"
+                android:text="Apply"
+                />
+        </LinearLayout>
+    <Button
+        android:id="@+id/map"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:text="View Map"
+        />
+</RelativeLayout>
+
+
+
